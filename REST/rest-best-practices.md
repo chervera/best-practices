@@ -56,8 +56,8 @@ No hacer un recurso por tabla, si no por necesidad de negocio, desnormalizar si 
 
 1. :bird:	- **Usar la anidación.** 
 La URL /coches/get-by-id-persona/3 sería incorrecta, ya que coches es una colección dentro de personas. la URL correcta sería /personas/3/coches.
-Esto puede crear un poco de confusión en los controladores que utilizan prefijos de rutas.
+Esto puede crear un poco de confusión en los controladores que utilizan **prefijos de rutas**.
 
 
-http://test.com/api/v1/coches/findbypersona/305150 -> Incorrecta
-http://192.168.56.101/api/v1/personas/305150/coches/ --> Correcta
+http://test.com/api/v1/coches/findbypersona/305150 -> Incorrecta  
+http://test.com/api/v1/personas/305150/coches/ --> Correcta
