@@ -29,14 +29,14 @@ Usar los parametros offset para informar el primer resultado a devolver y limit 
 1. :bug: - **Definir un payload de errores genérico**
 ```JSON
  {
-      "code":null, -> Código interno del mensaje, por si no hay suficiente con el codigo de respuesta HTTP
-      "message":null, -> Mensaje para mostrar al usuario ( una key, si hay i18n )
-      "messageDetail":null, -> Mensaje para das mas detalles al programador, no se va a mostrar
+      "code":null, // Código interno del mensaje, por si no hay suficiente con el codigo de respuesta HTTP
+      "message":null, // Mensaje para mostrar al usuario ( una key, si hay i18n )
+      "messageDetail":null, // Mensaje para das mas detalles al programador, no se va a mostrar
       "propertyErrors":[
           {
-              "property": null, -> Que propiedad provoca el error de validación
-              "message": null,  -> Mensaje con la explicación del error para la propiedad en concreto
-              "values": [{"peso": 0}, {"alto": 3}] -> valores que se van a interpolar dentro del mensaje ( por ejemplo "el valor de peso debe ser superior a 0 Kg")
+              "property": null, // Que propiedad provoca el error de validación
+              "message": null,  // Mensaje con la explicación del error para la propiedad en concreto
+              "values": [{"peso": 0}, {"alto": 3}] // valores que se van a interpolar dentro del mensaje ( por ejemplo "el valor de peso debe ser superior a 0 Kg")
           }
       ]
 }
@@ -56,8 +56,8 @@ No hacer un recurso por tabla, si no por necesidad de negocio, desnormalizar si 
 
 1. :bird:	- **Usar la anidación.** 
 La URL /coches/get-by-id-persona/3 sería incorrecta, ya que coches es una colección dentro de personas. la URL correcta sería /personas/3/coches.
-Esto puede crear un poco de confusión en los controladores que utilizan prefijos de rutas.
+Esto puede crear un poco de confusión en los controladores que utilizan **prefijos de rutas**.
 
 
-http://test.com/api/v1/coches/findbypersona/305150 -> Incorrecta
+http://test.com/api/v1/coches/findbypersona/305150 -> Incorrecta  
 http://192.168.56.101/api/v1/personas/305150/coches/ --> Correcta
