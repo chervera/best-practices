@@ -27,7 +27,12 @@ Permitir la ordenación por varios parámetros, separados por comas y mediante s
 Usar los parametros offset para informar el primer resultado a devolver y limit para informar de cuantos resultados devolver /personas?offset=10&limit=5. Para devolver el numero total de recursos usar el header **X-Total-Count** de la respuesta.
 
 1. :bug: - **Definir un payload de errores genérico**
-```JSON
+
+Los campos *code*, *message* y *messageDetail* sólo se debe informar si el codigo HTTP no es suficiente.
+
+El array *propertyErrors* solo se debe informar si hay errores de validación en alguna propiedad.
+
+```Javascript
  {
       "code":null, // Código interno del mensaje, por si no hay suficiente con el codigo de respuesta HTTP
       "message":null, // Mensaje para mostrar al usuario ( una key, si hay i18n )
@@ -41,10 +46,6 @@ Usar los parametros offset para informar el primer resultado a devolver y limit 
       ]
 }
 ```
-
-Los campos *code*, *message* y *messageDetail* sólo se debe informar si el codigo HTTP no es suficiente.
-
-El array *propertyErrors* solo se debe informar si hay errores de validación en alguna propiedad.
 
 1. :closed_book: - **Tanto la petición como la respuesta se tienen que entender sin documentación.** 
 Independientemente del modelo que tengamos o de la base de datos, los nombres de las propiedades y de las URL deben estan en lenguage prosa y entendible. En caso de duda, hay que pensar que no existe equipo de front.
