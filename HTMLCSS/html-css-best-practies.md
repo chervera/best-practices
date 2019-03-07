@@ -1,6 +1,6 @@
 # Buenas prácticas para la maquetación en HTML + CSS
 
-1. :black_square: - **Se dará estilos ortientados a componentes.** No se estilará en torno a páginas, si no a componentes, de esta forma será mas reutilizable y documentable. Por lo que:
+1. :bento: - **Se dará estilos ortientados a componentes.** No se estilará en torno a páginas, si no a componentes, de esta forma será mas reutilizable y documentable. Por lo que:
     .personas .title -> incorrecto
     .block .title       -> correcto
 
