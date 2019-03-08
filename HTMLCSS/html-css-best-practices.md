@@ -4,7 +4,7 @@
     .personas .title -> incorrecto
     .block .title       -> correcto
 
-1. :nail_care: - **No se darán estilos a etiquetas de HTML directamente.** No hay que crear acople entre funcionalidad y diseño. Se pondrá clases a los elementos, de esta forma si el tipo de elemento cambia no cambiará el diseño.
+1. :nail_care: - **No se darán estilos a etiquetas de HTML directamente.** No hay que crear acople entre funcionalidad y diseño. Se pondrá clases a los elementos, de esta forma si el tipo de elemento cambia no cambiará el diseño.  
     h1 {} -> incorrecto
     .h1 {} -> correcto
 
