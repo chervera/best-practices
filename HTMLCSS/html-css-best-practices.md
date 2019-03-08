@@ -21,3 +21,5 @@
 1. :newspaper: -  **Se debe usar las etiquetas html de forma semántica.** Esto significa que un span es para mostrar texto, un div para un contenedor y un label tiene que ir como acompañamiento a un input, por ejemplo. 
 
 1. :iphone: - **Se desarrolla primero la parte Mobile**. Todo lo que no esté en media queries será para mobile (o para la resolución más pequeña), y las media queries lo arreglarán para pantallas más grandes. Esto se hace porque en las versiones mínimas, hay todo lo necesario para trabajar, a partir de ahí se van añadiendo cosas, por lo tanto solo se añade CSS cuando se necesita añadir cosas no para quitar.
+
+1. :construction_worker: - **No modificar nunca estilos de terceros**. Si utilizamos librerias de terceros, como Bootstrap, Angular, React o cualquiera, nunca las vamos a modificar. Podemos sobreescribir sus estilos utilizando correctamente la cascada o especificidad de CSS.
