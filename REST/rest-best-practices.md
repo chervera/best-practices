@@ -7,7 +7,7 @@
 No hacer un recurso por tabla, si no por necesidad de negocio, desnormalizar si es necesario (patrón agregado).
 
 1. :bird:	- **Usar la anidación.** 
-La URL /coches/get-by-id-persona/3 sería incorrecta, ya que coches es una colección dentro de personas. la URL correcta sería /personas/3/coches.
+La URL /coches/get-by-id-persona/3 sería incorrecta en un dominio en el que la entidad principal sean las personas, ya que coches es una colección dentro de personas. En este dominio la URL correcta sería /personas/3/coches.
 Esto puede crear un poco de confusión en los controladores que utilizan **prefijos de rutas**.
 
     http://test.com/api/v1/coches/findbypersona/305150 -> Incorrecta  
