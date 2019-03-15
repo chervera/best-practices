@@ -2,7 +2,7 @@
 
 Conjunto de buenas prácticas. Separadas por tecnologías.
 
-## [Orgullo de programador](./TRANSVERSAL/transversal-best-practices.md)
+## [Transversal - (Orgullo de programador)](./TRANSVERSAL/transversal-best-practices.md)
 
 Buenas prácticas transversales, para cualquier lenguage o tipo de programación.
 

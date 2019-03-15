@@ -2,9 +2,10 @@
 
 Este es un conjunto de buenas practicas aplicables a cualquier tipo de programación y de lenguage. Seguirlas hará que nuestro codigo sea mantenible, escalable y de calidad. De paso crecerá nuestro **orgullo de programador**.
 
-1.  :point_up: - **Single Responsibility Principle (SRP)**
+1.  :point_up: - **Single Responsibility Principle (SRP)**. Este principio habla de que cada elemento en programación sirva únicamente para una objetivo especifico.  
+    Por lo tanto un método save(), solo va a guardar los datos. Si también se tiene que enviar un mail informando del cambio, se creará un método a parte.
 
-1.  :kiss: - **KISS - Keep it simple, stupid**
+1.  :kiss: - **KISS - Keep it simple, stupid**. Como dice la misma frase, hay que hacerlo sencillo. Todo. Como mas sencillo, mas mantenible, mas escalable, mas testeable. En el futuro te lo agradecerás.
 
 1.  :cyclone: - **DRY**
 
