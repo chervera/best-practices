@@ -7,7 +7,7 @@ Este es un conjunto de buenas practicas aplicables a cualquier tipo de programac
 
 1.  :kiss: - **KISS - Keep it simple, stupid**. Como dice la misma frase, hay que hacerlo sencillo. Todo. Como mas sencillo, mas mantenible, mas escalable, mas testeable. En el futuro te lo agradecerás.
 
-1.  :cyclone: - **DRY - Don't repeat yourself**. No te repitas. De esta forma el código que hagas, será mucho más mantenible, ya que solo estará una vez. Mas mantenible, ya que solo estará una vez. Mas testeable, ya que solo estará una vez. ya que solo estará una vez. ya que solo estará una vez.
+1.  :cyclone: - **DRY - Don't repeat yourself**. No te repitas. De esta forma el código que hagas, será mucho más mantenible, ya que solo estará una vez. Mas escalable, ya que solo estará una vez. Mas testeable, ya que solo estará una vez. ya que solo estará una vez. ya que solo estará una vez.
 
 1.  :capital_abcd: - **Nomenclaturas - Escribir en modo prosa** - Como dice "Uncle Bob" en el libro "Clean Code", nos pasamos el 80% del tiempo leyendo código y solo un 20% escribiendolo. Por eso primaremos que el código se entienda sobre que sea fácil de escribir.  
     Es una buena practica poner en el nombre de las funciones todo lo que hacen, si vemos que nos queda demasiado largo, hay que plantearnos si nos estamos saltando la norma **SRP**.
@@ -20,7 +20,7 @@ Este es un conjunto de buenas practicas aplicables a cualquier tipo de programac
 1.  :rainbow: - **Separación de capas**. Las aplicaciones de software, suelen estar divididas por capas lógicas (Controladores, Servicios, Persistencia...). El no respetarlas, no siempre significa que el código no "funcione".  
     Podemos hacer una consulta en un controlador, pero aunque parezca más rápido, hará que incumplamos muchas de las buenas practicas descritas y por tanto a la larga (o no tan larga) será una gran perdida de tiempo y un incremento de dolores de cabeza.
 
-1.  :deciduous_tree: - **Deja el bosque (código) mas limpio de lo que lo encontraste**. Cuando nos ponemos a resolver un problema en un código o a hacer un evolutivo, muchas veces nos encontramos con que lo que ya está echo, no sigue los princípios de buenas prácticas.  
+1.  :deciduous_tree: - **Deja el bosque (código) mas limpio de lo que lo encontraste**. Cuando nos ponemos a resolver un problema en un código o a hacer un evolutivo, muchas veces nos encontramos con que lo que ya está hecho, no sigue los princípios de buenas prácticas.  
     Suele ser más cómodo seguir tal i como está, pero lo que hay que hacer es hacer nuestra tarea y arreglar lo que esté mal. De esta forma, se equilibra el estropeo al que tiende el software de forma natural.
 
 1.  :pencil2: - **Escribe código que NO necesite ser documentado**. Si seguimos todas las buenas prácticas aquí escritas, nuestro código no debería necesitar de documentación, ya que se debería entender por si solo. El principio no dice que no se documente, si no que cuando se necesite documentar una función/objeto/código nos tiene que saltar la alarma, ya que igual estamos saltandonos alguna de las buenas prácticas anteriores.
