@@ -8,4 +8,14 @@ Este es un conjunto de buenas practicas para aplicaciones recopilados para ser u
 
 1. Mostrar loaders mientras carga
 
-1.
+1. Tener en cuenta los contrastes
+
+1. Combos con muchos elementos
+
+1. Menús
+
+1. Inputs en pantallas
+
+##Responsive
+
+1. Hovers

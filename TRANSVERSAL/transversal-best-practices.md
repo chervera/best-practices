@@ -24,3 +24,5 @@ Este es un conjunto de buenas practicas aplicables a cualquier tipo de programac
     Suele ser más cómodo seguir tal i como está, pero lo que hay que hacer es hacer nuestra tarea y arreglar lo que esté mal. De esta forma, se equilibra el estropeo al que tiende el software de forma natural.
 
 1.  :pencil2: - **Escribe código que NO necesite ser documentado**. Si seguimos todas las buenas prácticas aquí escritas, nuestro código no debería necesitar de documentación, ya que se debería entender por si solo. El principio no dice que no se documente, si no que cuando se necesite documentar una función/objeto/código nos tiene que saltar la alarma, ya que igual estamos saltandonos alguna de las buenas prácticas anteriores.
+
+1.  Constantes
