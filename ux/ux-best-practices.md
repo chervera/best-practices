@@ -7,7 +7,7 @@ Este es un conjunto de buenas practicas para aplicaciones recopilados para ser u
 
 1. - :arrow_right: **Navegar por tabulaciones**. Es necesario que se pueda navegar mediante tabulaciones. Es necesario prestar atención sobretodo a los tipos de inputs mas sensibles como son los combos o los checkbox.
 
-1. :hourglass: - **Mostrar loaders mientras carga**. Mientras se está realizando una acción que debe ser completada (como la carga principal de datos y el guardado) una buena practica es bloquear toda la acción del usuario (con un div 100%) y mostrar un loader.
+1. :hourglass: - **Mostrar loaders mientras carga**. Mientras se está realizando una acción que debe ser completada para que el usuario pueda interactuar (como la carga principal de datos o el guardado) una buena practica es bloquear toda la pantalla (con un div 100%) y mostrar un loader.
 
 1. Tener en cuenta los contrastes
 
